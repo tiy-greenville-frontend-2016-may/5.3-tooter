@@ -19,7 +19,7 @@ describe('Post', function(){
         expect(firstPost).to.have.property('title');
         expect(firstPost).to.have.property('body');
         expect(firstPost).to.have.property('_id');
-        expect(firstPost).to.have.property('created_at');
+        // expect(firstPost).to.have.property('created_at');
         done();
       });
     });
