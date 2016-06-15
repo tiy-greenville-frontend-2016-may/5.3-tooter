@@ -1,7 +1,7 @@
 var $ = require('jquery');
 
 function PostView(){
-  console.log('PostView working!');
+  $('body').append('<ul class="posts">');
 }
 PostView.prototype.showPosts = function(posts){
   posts.forEach(function(post){
