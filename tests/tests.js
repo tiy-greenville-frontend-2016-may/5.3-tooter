@@ -1,4 +1,5 @@
 var expect = chai.expect;
+var $ = require('jquery');
 var Post = require('../app/scripts/models');
 
 /**

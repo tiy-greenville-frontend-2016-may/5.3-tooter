@@ -5,7 +5,7 @@ var Post = require('./models.js');
 $(function(){
   var view = new PostView();
 
-  $(document).on('posts:fetch', function(event, posts){
+  $(document).on('posts:fetched', function(event, posts){
     view.showPosts(posts);
   });
 
